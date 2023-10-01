@@ -11,6 +11,8 @@ body{
 
 a:link{
     text-decoration: none;
+    text-decoration-skip: none;
+    color: #FFFFFF;
 }
 
 h1 {
@@ -26,14 +28,32 @@ h2 {
     text-align: center;
 }
 
-.corpo{
-    padding: 10px;
+h3 {
+    font-family: 'Original Surfer';
+    color: #FFFFFF;
+    text-align: center;
 }
 
-.prince_deus {
-    border-radius: 20px;
+ul {
+    list-style-type: none;
+    font-family: 'Original Surfer';
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+li {
+    color: #FFFFFF;
+    display: inline;
+    padding: 20px;
     margin-right: 50px;
-    margin-left: 75px;
+}
+
+.botao {
+    border-radius: 20px;
+    margin-right: 6px;
+    margin-left: 10px;
+    border: none;
 }
 
 .img_deus{
@@ -42,20 +62,10 @@ h2 {
     border-radius: 20px;
 }
 
-.hist_lenda {
-    border-radius: 20px;
-    margin-right: 50px;
-}
-
 .img_historia{
     width: 225px;
     height: 411px;
     border-radius: 20px;
-}
-
-.reinos {
-    border-radius: 20px;
-    margin-right: 50px;
 }
 
 .img_reinos{
@@ -64,22 +74,20 @@ h2 {
     border-radius: 20px;
 }
 
-.creatures {
-    border-radius: 20px;
-    margin-right: 50px;
-    
-}
-
 .img_criatura{
     width: 225px;
     height: 411px;
     border-radius: 20px;
 }
 
+.img_influencia{
+    width: 225px;
+    height: 411px;
+    border-radius: 20px;
+}
+
 .texto {
-    text-align: center;
-    padding-right: 140px;
-    padding-left: 20px;
+    border-right: 10px;
 }
 
 p{
@@ -88,3 +96,4 @@ p{
     display: inline-block;
     margin-left: 120px;
 }
+

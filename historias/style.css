@@ -26,6 +26,12 @@ h2 {
     text-align: center;
 }
 
+h4{
+    font-family: 'Original Surfer';
+    color: #FFFFFF;
+    text-align: center;
+}
+
 .corpo {
     display: flex;
     justify-content: center;
