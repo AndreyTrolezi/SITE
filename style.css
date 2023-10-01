@@ -1,9 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Original+Surfer&display=swap');
+
 header {
-    border: 1px solid #275279;
+    border: 0.2px solid;
     background-color: #275279;
-    
 }
 
 body{
     background-color: #19314E;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Caesar Dressing';
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Original Surfer';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.corpo{
+    padding: 10px;
+}
+
+.prince_deus {
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 75px;
+}
+
+.img_deus{
+    width: 225px;
+    height: 411px;
+    border-radius: 20px;
+}
+
+.hist_lenda {
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.img_historia{
+    width: 225px;
+    height: 411px;
+    border-radius: 20px;
+}
+
+.reinos {
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.img_reinos{
+    width: 225px;
+    height: 411px;
+    border-radius: 20px;
+}
+
+.creatures {
+    border-radius: 20px;
+    margin-right: 50px;
+    
+}
+
+.img_criatura{
+    width: 225px;
+    height: 411px;
+    border-radius: 20px;
+}
+
+.texto {
+    text-align: center;
+    padding-right: 140px;
+    padding-left: 20px;
+}
+
+p{
+    font-family: 'Original Surfer';
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 120px;
 }
